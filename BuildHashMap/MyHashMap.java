@@ -15,7 +15,7 @@ public class MyHashMap<K,V> {
         int capacity = findCapacity(size);
         hashTable = new Entry[capacity];
     }
-
+    // This is personal choice
     private int findCapacity(int size){
         if(size >= MAXIMUN_SIZE){
             return MAXIMUN_SIZE;
