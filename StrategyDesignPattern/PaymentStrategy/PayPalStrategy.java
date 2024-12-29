@@ -1,5 +1,5 @@
-package Strategy-Design-Pattern.payment-strategy;
-import Strategy.PaymentStrategy;
+package StrategyDesignPattern.PaymentStrategy;
+import strategyDesignPattern.PaymentStrategy;
 
 
 public class PayPalStrategy implements PaymentStrategy{

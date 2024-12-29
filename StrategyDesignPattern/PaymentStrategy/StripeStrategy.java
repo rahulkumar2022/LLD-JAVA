@@ -1,5 +1,5 @@
-package Strategy-Design-Pattern.payment-strategy;
-import Strategy.PaymentStrategy;
+package StrategyDesignPattern.PaymentStrategy;
+import strategy.designpattern.PaymentStrategy;
 
 
 public class StripeStrategy implements PaymentStrategy{

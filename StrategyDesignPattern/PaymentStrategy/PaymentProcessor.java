@@ -1,4 +1,6 @@
-package Strategy-Design-Pattern.payment-strategy;
+package StrategyDesignPattern.PaymentStrategy;
+
+import StrategyDesignPattern.PaymentStrategy.PaymentStrategy;
 
 public class PaymentProcessor {
     private PaymentStrategy paymentStrategy;

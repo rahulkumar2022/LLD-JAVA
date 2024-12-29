@@ -1,4 +1,6 @@
-package Strategy-Design-Pattern.payment-strategy;
+package StrategyDesignPattern.PaymentStrategy;
+
+
 
 public class Main {
     public static void main(String[] args) {
@@ -6,7 +8,7 @@ public class Main {
         PaymentStrategy stripeStrategy = new StripeStrategy();
         PaymentStrategy bankStrategy = new BankStrategy();
 
-        PaymentProcessor paymentProcessor = new PaymentProcessor(paypalStrategy);
+        PaymentProcessor paymentProcessor = new PaymentProcessor(payPalStrategy);
         double amount = 100;
         String result = paymentProcessor.processPayment(amount);
         System.out.println(result);
