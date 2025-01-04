@@ -1,0 +1,24 @@
+
+
+Direction 
+-UP
+-DOWN
+-IDLE
+
+DoorAction 
+-OPEN
+-CLOSE
+
+ElevetorNumber
+-ELEVATOR 1
+-ELEVATOR 2
+-ELEVATOR 3
+
+
+FloorNumber
+-FlOOR1
+-FlOOR2
+-FLOOR3
+-FLOOR4
+-FLOOR5
+-FLOOR6
