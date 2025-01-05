@@ -1,0 +1,14 @@
+Get user details
+    -> @Get /api/users/{userId}
+
+Get rides for user
+    -> @Get /api/users/{userId}/rides
+
+Post ride for user
+    -> @POST /api/users/{userId}/rides
+
+cancel rides
+    ->@PUT /api/users/{userId}/rides/{rideId}/cancel
+
+Rate a Ride
+    -> @POST /api/users/{userId}/rides/{rideId}/rate

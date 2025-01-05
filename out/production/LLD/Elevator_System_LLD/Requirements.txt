@@ -1,0 +1,10 @@
+1.) Elevator_System_LLD
+2.) Floor -> max 15 Floor
+3.) Elevator_System_LLD Movement -> UP,down,IDLE
+4.) Elevator_System_LLD door oprtaion -> Open when IDLE
+5.) Floor Access -> Should open and Close
+6.) External panel -> UP , down,Display current moving direction
+7.) Inside control panel -> Button for open, CLOSE , Floor selection, Passenger direction
+8.) Elevator_System_LLD System control -> manages elevator Movement
+9.) Capacity 
+10.) Maximum no elevatorv

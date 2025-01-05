@@ -1,0 +1,9 @@
+Users -> user_id,name,email,mobile_no, isBlocked
+Drivers -> driver_id,name,email,mobile_no,cab_id,isActive, is_Blocked
+Cab -> cab_id,vehicle_no,driver_id, is_Blocked, all vehicle details......
+Rides -> ride_id,driver_id,user_id,prick_up_location,drop_location,fare,status
+Payments -> payment_id,ride_id,amount, payment_method, status,......
+Rating -> ride_id,user_id,driver_id,rating,reviews,.........
+
+
+

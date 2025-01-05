@@ -41,7 +41,7 @@ public class ElevatorSystem {
         return elevatorSystem;
     }
     public Elevator requestElevator(Direction direction,Floor floor){
-        
+
         return null;
     }
     public void openDoor(Elevator elevator){
