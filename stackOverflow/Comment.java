@@ -1,2 +1,4 @@
-package stackOverflow;public class Comment {
+package stackOverflow;
+
+public class Comment {
 }

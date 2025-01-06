@@ -1,2 +1,4 @@
-package stackOverflow;public class Answer {
+package stackOverflow;
+
+public class Answer implements Votable, Commentable {
 }

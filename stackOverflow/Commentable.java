@@ -1,2 +1,8 @@
-package stackOverflow;public class Commentable {
+package stackOverflow;
+
+import java.util.List;
+
+public interface Commentable {
+    void addComment(Comment comment);
+    List<Comment> getComments();
 }

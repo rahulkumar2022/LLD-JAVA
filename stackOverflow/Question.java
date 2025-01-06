@@ -1,2 +1,4 @@
-package stackOverflow;public class Question {
+package stackOverflow;
+
+public class Question {
 }
