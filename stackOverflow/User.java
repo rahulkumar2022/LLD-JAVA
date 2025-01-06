@@ -2,7 +2,6 @@ package stackOverflow;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
 
 public class User {
     private final int id;
@@ -32,7 +31,7 @@ public class User {
     public Question askQuestion(String title,String content,List<String> tags){
         Question question = new Question(this, title,content, tags);
         questions.add(question);
-        updateRepuation(QUESTION_REPUTATION);
+        updateReputation(QUESTION_REPUTATION);
         return question;
     }
 
@@ -40,22 +39,49 @@ public class User {
         Comment comment = new Comment(this, content);
         comments.add(comment);
         commentable.add(comment);
-        updateRepuation(COMMENT_REPUTATION);
+        updateReputation(COMMENT_REPUTATION);
         return comment;
     }
 
     public Answer answerQuestion(Question question,String content){
         Answer answer = new Answer(this,question,content);
         answers.add(answer);
-        updateRepuation(ANSWER_REPUTATION);
+        updateReputation(ANSWER_REPUTATION);
         return answer;
     }
 
-    public synchronized void updateRepuation(int value){
+    public synchronized void updateReputation(int value){
         this.reputation += value;
         if(this.reputation<0){
             this.reputation = 0;
         }
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public int getReputation() {
+        return reputation;
+    }
+
+    public List<Question> getQuestions() {
+        return questions;
+    }
+
+    public List<Answer> getAnswers() {
+        return answers;
+    }
+
+    public List<Comment> getComments() {
+        return comments;
+    }
 }
