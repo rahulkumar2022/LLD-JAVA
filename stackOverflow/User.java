@@ -38,7 +38,7 @@ public class User {
     public Comment addComment(Commentable commentable,String content){
         Comment comment = new Comment(this, content);
         comments.add(comment);
-        commentable.add(comment);
+        commentable.addComment(comment);
         updateReputation(COMMENT_REPUTATION);
         return comment;
     }
@@ -84,4 +84,6 @@ public class User {
     public List<Comment> getComments() {
         return comments;
     }
+
+
 }

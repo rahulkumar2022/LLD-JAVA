@@ -23,7 +23,7 @@ public class ReadyState implements VendingMachineState {
 
     @Override
     public void insertNote(Note note) {
-        vendingMachine.addNote(note);
+        //vendingMachine.addNote(note);
         System.out.println("");
     }
 
@@ -37,6 +37,6 @@ public class ReadyState implements VendingMachineState {
 
     }
     private void checkPaymentStatus(){
-        if(vendingMachine.getTotalPayment()==vendingMachine.getSelectedProduct().getPrice())
+       // if(vendingMachine.getTotalPayment()==vendingMachine.getSelectedProduct().getPrice())
     }
 }

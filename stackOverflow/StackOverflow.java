@@ -19,6 +19,13 @@ public class StackOverflow {
         tags = new ConcurrentHashMap<>();
     }
 
+    public User createUser(String username,String email){
+        int id = users.size() + 1;
+        User user = new User(id,username,email);
+        users.put(id,user);
+        return user;
+    }
+
     public Question askQuestion(User user, String title, String content, List<String> tags){
         Question question = user.askQuestion(title,content,tags);
         questions.put(question.getId(), question);

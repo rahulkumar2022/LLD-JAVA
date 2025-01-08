@@ -1,6 +1,5 @@
 package BuildHashMap;
 
-import java.util.Hashtable;
 
 public class MyHashMap<K,V> {
     private static final int INITIAL_SIZE = 1<<4;
@@ -75,4 +74,4 @@ public class MyHashMap<K,V> {
         }
     }
     
-}
+
