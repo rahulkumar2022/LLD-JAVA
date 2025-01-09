@@ -1,4 +1,0 @@
--> Ride booking microservices
--> Payment Microservices
--> Notification microservices
--> Rating microservices
