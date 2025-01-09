@@ -1,0 +1,2 @@
+LogMessage{logLevel=DEBUG, message='This is debug in file', timestamp=Thu Jan 09 07:41:34 IST 2025}
+LogMessage{logLevel=DEBUG, message='This is debug in file', timestamp=Thu Jan 09 07:41:51 IST 2025}
