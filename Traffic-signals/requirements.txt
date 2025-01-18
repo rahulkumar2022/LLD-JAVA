@@ -1,0 +1,26 @@
+1.) The traffic signal system should control the flow of
+    traffic at an intersection with multiple roles.
+
+2.) The system should support different types of signals 
+    such as red, green, and yellow.
+3.) The duration of each signal should be configurable
+and adjusted based on traffic conditions.
+4.) The system should handle the transition between signals
+    smoothly and efficiently ensuring traffic signal.
+5.) The system should be able to detect and handle 
+    emergency situations, such as an ambulance or fire 
+    rruck approching the interaction
+6.) The system should be scalable and extensible to 
+    support additional features and functionalities.
+
+
+    Class, Interface and Enumerations
+
+1.) Signal (enum) -> RED, YELLOW, green
+2.) Road (Class) -> Id, name, traffic_light
+3.) TrafficLight (Class) -> id, current_signal, duration_of_each_signals
+    change signal methods, notfiy observers
+4.) TrafficControl (Class) -> ensures single instance of controller,
+    handle signal change, handle emergency vehicles
+5.) TrafficSignalSystemDemo (Class) -> main class to demonstrate the 
+    traffic signal system
